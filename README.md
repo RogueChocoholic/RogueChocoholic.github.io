@@ -11,7 +11,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -28,13 +27,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor]
 - Live Site URL: (https://roguechocoholic.github.io/)
 
 ## My process
-
-- Began with the html format and created a div [containerMain] with the width and height of 100 viewport width and height.
-- added display: flex; ,justify-content: center; and align-items: center; to center its contents.
-- Created another div [qrContainer] to contain the QR and the texts.
-- Justified its contents same way as in the first div.
-- created 2 more div tags inside the [qrContainer] to hold the QR [imgContainer] and text [textContainer].
-- added qr as background of [imgContainer], text inside [h2], [p] with font css font sizes
 
 ### Built with
 
