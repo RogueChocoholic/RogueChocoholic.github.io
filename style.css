@@ -1,0 +1,107 @@
+body {
+
+    background-color: hsl(212, 45%, 89%);
+    margin: 0px;
+}
+
+.qrContainer {
+    width: 350px;
+    height: 550px;
+
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+
+    background-color: hsl(0, 0%, 100%);
+
+    box-shadow: 1px 1px 50px #00000027;
+}
+
+.containerMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.imgContainer {
+
+    width: 315px;
+    height: 315px;
+
+    background-image: url("./images/image-qr-code.png");
+    background-size: cover;
+
+    border-radius: 13px;
+
+    display: block;
+}
+
+.textContainer {
+    margin-top: 10px;
+
+    width: 265px;
+    height: 190px;
+
+
+}
+
+.h2Custom {
+    font-size: 22.5px;
+    text-align: center;
+
+    font-family: "Outfit-black";
+}
+
+.pCustom {
+    font-size: 15px;
+    text-align: center;
+
+    opacity: 65%;
+    
+    font-family: "Outfit-regular";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'Outfit-regular';
+    src: url('./assets/Outfit-Regular.ttf')  format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Outfit-black';
+    src: url('./assets/Outfit-Bold.ttf') format('truetype');
+  }
