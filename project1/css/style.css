@@ -1,0 +1,59 @@
+.bg {
+    width: 100%;
+    height: 100vh;
+
+    background-image: url("./images/john-towner-JgOeRuGD_Y4-unsplash.jpg");
+    background-size: cover;
+}
+
+.contentContainer {
+    width: 100%;
+    height: 100%;
+
+    font-weight: bold;
+    color: white;
+}
+
+
+.insertContainer {
+    width: 498px;
+    height: 500px;
+
+    background-color: rgba(75, 75, 75, 0.397);
+}
+
+.formHeightSet {
+    height: 33px;
+
+    font-size: 13px;
+}
+
+.updateContainer {
+    width: 498px;
+    height: 380px;
+
+    background-color: rgba(75, 75, 75, 0.397);
+}
+
+.deleteContainer {
+    width: 498px;
+    height: 120px;
+    background-color: rgba(75, 75, 75, 0.397);
+
+    
+}
+
+.btnSizeReduce {
+    height: 35px;
+}
+
+.footer {
+    margin-top: 320px;
+}
+
+
+@media (max-width : 991px){
+    .bg {
+        height: 100%;
+    }
+}
