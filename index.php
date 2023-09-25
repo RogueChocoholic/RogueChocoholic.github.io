@@ -32,7 +32,7 @@
 
     </div>
     <div>
-        <a class="btn btn-primary" href="2.html">Go to Frontend practice project</a>
+        <a class="btn btn-primary" href="./project1/project1.php">Go to Frontend practice project</a>
     </div>
 </div>
 
