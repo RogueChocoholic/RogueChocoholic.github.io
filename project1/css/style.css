@@ -20,6 +20,12 @@
     height: 500px;
 
     background-color: rgba(75, 75, 75, 0.397);
+
+    backdrop-filter: blur(6px);
+
+    border-style: ridge;
+    border-width: 1px;
+    border-color: rgba(245, 245, 245, 0.123);
 }
 
 .formHeightSet {
@@ -33,6 +39,12 @@
     height: 380px;
 
     background-color: rgba(75, 75, 75, 0.397);
+
+    backdrop-filter: blur(6px);
+
+    border-style: ridge;
+    border-width: 1px;
+    border-color: rgba(245, 245, 245, 0.123);
 }
 
 .deleteContainer {
@@ -40,6 +52,11 @@
     height: 120px;
     background-color: rgba(75, 75, 75, 0.397);
 
+    backdrop-filter: blur(6px);
+
+    border-style: ridge;
+    border-width: 1px;
+    border-color: rgba(245, 245, 245, 0.123);
     
 }
 
