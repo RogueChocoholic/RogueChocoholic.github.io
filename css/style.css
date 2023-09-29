@@ -1,0 +1,437 @@
+.centerContents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body {
+    background-color: rgb(40, 0, 73);
+    background-size: cover;
+
+    overflow-x: hidden;
+
+    font-family: Outfit-regular;
+}
+
+/* ScrollBar css*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 192, 203, 0.514);
+    border-radius: 10px;
+
+    transition-duration: .5s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 192, 203, 0.815);
+    transition-duration: .5s;
+}
+
+/* ScrollBar done*/
+
+.bgInBg {
+    height: 100vh;
+    width: 100vw;
+
+    position: absolute;
+    z-index: -10;
+
+    opacity: .5;
+
+    overflow: hidden;
+}
+
+
+.mouseThingySize {
+    height: 100%;
+    width: 100vw;
+    position: block;
+
+
+    pointer-events: none;
+}
+
+.sun {
+    height: 300px;
+    width: 300px;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgb(58, 0, 92) 0%, rgba(255, 255, 255, 0) 70%);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-animation: Gradient 6s ease-in-out infinite;
+    -moz-animation: Gradient 6s ease-in-out infinite;
+    animation: Gradient 6s ease-in-out infinite;
+    position: absolute;
+
+
+
+
+}
+
+.btn-pink {
+    --bs-btn-color: #ffffff;
+    --bs-btn-bg: #770281;
+    --bs-btn-border-color: #8200aa;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #970071;
+    --bs-btn-hover-border-color: #710088;
+    --bs-btn-focus-shadow-rgb: 66, 70, 73;
+    --bs-btn-active-color: #ed8bfa;
+    --bs-btn-active-bg: #ff00f2;
+    --bs-btn-active-border-color: #e700fc;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #412f47;
+    --bs-btn-disabled-border-color: #380046;
+}
+
+.btn-outline-pink {
+    --bs-btn-color: #ffffff;
+    --bs-btn-border-color: #8200aa00;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #970071;
+    --bs-btn-hover-border-color: #710088;
+    --bs-btn-focus-shadow-rgb: 33, 37, 41;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #212529;
+    --bs-btn-active-border-color: #212529;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #212529;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #212529;
+    --bs-gradient: none;
+}
+
+
+.welcomeContainer {
+    margin-top: 200px;
+
+    position: absolute;
+
+}
+
+.welcomeSize {
+    font-size: 82px;
+    color: white;
+
+    margin-left: -1100px;
+
+    user-select: none;
+}
+
+.welcomeSize2 {
+    font-size: 65px;
+    color: pink;
+
+    margin-left: -1050px;
+    margin-top: -25px;
+
+
+    user-select: none;
+}
+
+.welcomeSize3 {
+    font-size: 106px;
+    color: rgb(174, 0, 255);
+
+    margin-left: -950px;
+    margin-top: -50px;
+
+    user-select: none;
+
+}
+
+.myName {
+
+    font-size: 30px;
+    color: pink;
+
+    margin-left: -550px;
+
+    user-select: none;
+}
+
+.welcomeSmall {
+
+    font-size: 30px;
+    color: pink;
+
+    margin-left: 55px;
+
+    user-select: none;
+
+    opacity: .5;
+}
+
+.smallMainText {
+    font-size: 20px;
+    font-weight: lighter;
+
+    opacity: 2;
+    color: pink;
+
+    margin-left: 55px;
+
+    user-select: none;
+}
+
+.bringFront {
+    position: relative;
+    z-index: 10;
+}
+
+.blankPage {
+    height: 2000px;
+}
+
+.ContentsContainer {
+    width: 500px;
+    height: 800px;
+    border-right: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contents {
+    color: white;
+    /* removed font weight */
+    cursor: pointer;
+
+    text-decoration: none;
+
+    transition: transform .2s;
+    /* Animation */
+
+}
+
+.contents:hover {
+    transform: scale(1.1);
+}
+
+.details {
+    height: 750px;
+
+    background-color: rgba(75, 75, 75, 0.397);
+
+    backdrop-filter: blur(6px);
+}
+
+.screenshots {
+    height: 800px;
+
+    background-color: rgba(75, 75, 75, 0.397);
+
+    backdrop-filter: blur(6px);
+}
+
+.colorWhite {
+    color: white;
+
+    transition: transform .2s;
+}
+
+.colorWhite:hover {
+    transform: scale(1.5);
+}
+
+.siteTitle {
+    color: white;
+
+}
+
+.seperator {
+    height: 50px;
+}
+
+.expand {
+    transition: transform .5s;
+}
+
+.expand:hover {
+    transform: scale(1.2);
+}
+
+
+.h4 {
+    color: pink;
+}
+
+.detailsParagraph {
+    font-size: 18px;
+    font-weight: lighter;
+
+    opacity: 2;
+    color: white;
+
+
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width : 1400px) {
+
+
+
+    .welcomeSize {
+        font-size: 62px;
+
+        margin-left: -1000px;
+
+        user-select: none;
+    }
+
+    .welcomeSize2 {
+        font-size: 50px;
+
+        margin-left: -850px;
+        margin-top: -25px;
+
+    }
+
+    .welcomeSize3 {
+        font-size: 80px;
+
+        margin-left: -850px;
+        margin-top: -50px;
+
+
+    }
+
+    .welcomeSmall {
+
+        font-size: 20px;
+
+        margin-left: 55px;
+
+    }
+
+    .myName {
+
+        font-size: 20px;
+
+        margin-left: -270px;
+
+    }
+
+    .smallMainText {
+        font-size: 16px;
+    }
+
+}
+
+@media(max-width : 992px) {
+    .welcomeContainer {
+
+        position: relative;
+
+    }
+
+    .ContentsContainer {
+        flex-direction: row;
+
+        align-items: flex-start;
+
+        width: 600px;
+        height: 200px;
+
+        margin-top: 50px;
+    }
+
+    .contents {
+        margin-left: 10px;
+    }
+
+
+
+    .welcomeSize {
+        font-size: 44px;
+
+        margin-left: -1000px;
+
+    }
+
+    .welcomeSize2 {
+        font-size: 35px;
+
+        margin-left: -850px;
+        margin-top: -15px;
+
+    }
+
+    .welcomeSize3 {
+        font-size: 80px;
+        color: rgb(174, 0, 255);
+        margin-left: -850px;
+        margin-top: -50px;
+
+
+    }
+
+    .welcomeSmall {
+
+        font-size: 20px;
+
+        margin-left: 55px;
+
+    }
+
+    .smallMainText {
+        font-size: 16px;
+    }
+
+    .details {
+        height: 500px;
+    }
+}
+
+
+
+
+
+@font-face {
+    font-family: 'Outfit-regular';
+    src: url('./assets/Outfit-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Outfit-black';
+    src: url('./assets/Outfit-Bold.ttf') format('truetype');
+}
