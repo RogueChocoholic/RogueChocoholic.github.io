@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NewTECH | Products</title>
+    <link rel="icon" href="./css/Home images/favicon2.png">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/styleSingle.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="break"></div>
+        <div class="row topDetails">
+            <a class="col-2 offset-1 aFilter" href="#">
+                <p>Hotline +94914446665</p>
+            </a>
+            <div class="col-1">|</div>
+            <a class="col-2 aFilter" href="#">
+                <p>Customer Support</p>
+            </a>
+            <div class="col-1">|</div>
+            <a class="col-2 aFilter" href="#">
+                <p>Our Stores</p>
+            </a>
+            <div class="col-1">|</div>
+            <a class="col-2 aFilter" href="adminPanel.html">
+                <p>Admin Panel</p>
+            </a>
+        </div>
+
+        <div class="break"></div>
+        <div class="break"></div>
+
+
+        <div class=" row shadow">
+            <div class="topFix d-flex align-items-center gap-1">
+                <a class="offset-2 "><img src="./css/Home images/Asset 2.png" class="logo" alt=""></a>
+                <a class="btn btn-sm col-1 " href="index.html">Home</a>
+                <a class="btn btn-sm col-1 removeBtns" href="listing.html">All Products</a>
+                <a class="btn btn-sm col-1 removeBtns">Contact Us</a>
+                <a class="btn btn-sm col-2 col-md-1 removeBtns" href="index.html">My Account</a>
+
+
+                <a class="btn btn-dark btn-sm col-1 removeBtns" href="login.html">Log-in</a>
+                <a class="btn btn-dark btn-sm col-1 removeBtns" href="signup.html">Sign-up</a>
+                <a class="btn col-2 col-md-1 menuArrow offset-md-4 offset-1"><img
+                        src="./css/Home images/angle-small-down.png" class="cart" onclick="manualDropdown();"
+                        alt=""></a>
+                <a class="btn col-md-1 col-2" data-bs-toggle="offcanvas" data-bs-target="#cartslide"
+                    aria-controls="cartslide"><img src="./css/Home images/shopping-cart copy.png" class="cart"
+                        alt=""></a>
+                <a class="btn col-md-1 col-2" data-bs-toggle="offcanvas" data-bs-target="#wishlist"
+                    aria-controls="cartslide"><img src="./css/Home images/heart.png" class="cart" alt=""></a>
+            </div>
+            <div class="break"></div>
+
+
+
+
+            <div class="row">
+                <div class="menuContainer col-10 offset-1 shadow rounded" onmouseleave="dropDownOver()"
+                    id="menuContainer">
+                    <div class="break"></div>
+                    <div class="row">
+                        <a class="btn btn-sm col-5 offset-1">All Products</a>
+
+                        <a class="btn  btn-sm col-5 ">Contact Us</a>
+                        <div class="break"></div>
+                    </div>
+
+                    <a class="btn btn-dark btn-sm col-5 offset-1" href="login.html">Log-in</a>
+                    <a class="btn btn-dark btn-sm col-5 " href="signup.html">Sign-up</a>
+                    <div class="break"></div>
+
+                    <a class="btn btn-sm col-6 offset-3" href="index.html">My Account</a>
+                    <div class="break"></div>
+                </div>
+            </div>
+
+
+
+            <div class="break2"></div>
+
+            <div class="col-8 offset-2 col-xl-6 offset-xl-3">
+                <div class="input-group">
+                    <a class="btn btn-primary" id="btnGroupAddon2" href="listing.html"><img
+                            src="./css/Home images/search.png" class="searchIcon" alt="">
+                    </a>
+                    <input type="search" class="form-control col-4" placeholder="Search Products"
+                        aria-label="Input group example" aria-describedby="btnGroupAddon2">
+                </div>
+            </div>
+            <div class="break"></div>
+        </div>
+        <div class="break3"></div>
+        <div class="break3"></div>
+
+        <div class="">
+            <div class="singleContainer d-flex justify-content-center gap-1">
+                <div class="singlesImgContainer rounded shadow">
+                    <div class="d-flex justify-content-center">
+                        <div class=" itemImgBG"> <img src="./css/Home images/tuf2.png" class="itemImg" alt=""></div>
+                    </div>
+                    <div class="starIconsContainer d-flex align-items-center">
+                        <div class="starIcon"></div>
+                        <div class="starIcon"></div>
+                        <div class="starIcon"></div>
+                        <div class="starIcon"></div>
+                        <div class="halfStarIcon"></div>
+
+                        <div class="smallTextCart margin">200 reviews | 20+ sold</div>
+                    </div>
+                    <div class="break2"></div>
+                    <div class="d-flex">
+                        <div class=" col-1 offset-1"><a class="btn">
+                                <div class="iconSquareWatchlistHeart"></div>
+                            </a>
+                        </div>
+
+                        <div class=" col-1 offset-1"><a class="btn">
+                                <div class="iconSquareWatchlistShare"></div>
+                            </a></div>
+                    </div>
+
+
+                </div>
+
+
+                <div class="singlesDetailsContainer">
+                    <div class="break2"></div>
+                    <div class="margin">
+
+                        <h4>Asus Tuf Gaming F15</h4>
+                        <div class="smallDetailsText">Brand : <a class="smallDetailsText" href="#">Asus</a> | <a
+                                class="smallDetailsText" href="#">More from Asus</a>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <div class="margin">
+                        <p class="priceText">Rs. 270,000 </p>
+                        <p class="striked"><s>Rs.300,000</s> &nbsp;&nbsp;&nbsp;&nbsp;10% off</p>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-4 text-end smallTextCart">Installment Offers </div>
+                        <div class="col-7  smallTextCart">Installment plans available upto 24 months </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-4 text-end smallTextCart">Model</div>
+                        <a class="smallDetailsText col-2 text-center" href="#">Fortress Gray</a>
+                        <a class="smallDetailsText col-2 text-center" href="#">Bonfire Black</a>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-4 text-end smallTextCart">Quantity</div>
+                        <div class="col-2"><input type="number" value="1" class="form-control" style="height: 25px;">
+                        </div>
+                    </div>
+                    <div class="row mt-4 justify-content-center gap-1">
+                        <a class="btn btn-outline-dark col-3 rounded-0" href="shoppingCart.html">Buy Now</a>
+                        <a class="btn btn-light col-3 rounded-0" data-bs-toggle="modal" data-bs-target="#zephe">Add to
+                            Cart</a>
+                        <!-- Modal -->
+                        <div class="modal fade" id="zephe" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Cart</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h5 class="text-center">Asus Tuf F15 Added to Cart</h5>
+                                        <div class="break"></div>
+                                        <button type="button" class="btn btn-danger offset-4 btn-sm rounded-0"
+                                            data-bs-dismiss="modal">Remove</button>
+                                        <button type="button" class="btn btn-primary btn-sm rounded-0"
+                                            data-bs-dismiss="modal">Done</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="singlesPriceContainer">
+
+                    <div class="margin">
+                        <div class="row mt-3">
+
+                            <div class="smallDetailsText">Delivery</div>
+                            <div class="row  mt-1">
+                                <div class="col-1 ">
+                                    <div class=""><a class="btn disabled btn-light" role="button" aria-disabled="true">
+                                            <div class="iconSquareLocation"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-6 offset-1">
+                                    <p class="smallDetailsText">Western, Colombo 1-15, Colombo 01 - Fort</p>
+                                </div>
+                                <div class="col-3"><a class="locationChangeText" href="#">Change</a></div>
+                            </div>
+                            <div class="row marginReduce">
+                                <div class="col-1">
+                                    <div class=""><a class="btn disabled btn-light" role="button" aria-disabled="true">
+                                            <div class="iconSquareDelivery"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-6 offset-1">
+                                    <p class="smallDetailsText"><b>Standard Delivery</b>
+                                    <p class="deliveryDays">4-5 day(s)</p>
+                                    </p>
+                                </div>
+                                <div class="col-3 text-start">
+                                    <p class="smallTextCart"><b>Rs. 300</b></p>
+                                </div>
+                            </div>
+
+                            <div class="row marginReduce">
+                                <div class="col-1">
+                                    <div class=""><a class="btn disabled btn-light" role="button" aria-disabled="true">
+                                            <div class="iconSquareCod"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-6 offset-1 ">
+                                    <p class="smallDetailsText">Cash on Delivery Available</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="border border-1">
+                    <div class="margin">
+                        <div class="row mt-3">
+
+                            <div class="smallDetailsText">Service</div>
+                            <div class="row  mt-1">
+                                <div class="col-1 mt-1">
+                                    <div class=""><a class="btn disabled btn-light" role="button" aria-disabled="true">
+                                            <div class="iconSquareVerify"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-8 offset-1 ">
+                                    <p class="servicesText">100% Authentic from Trusted Brand</p>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-1 mt-1">
+                                    <div class=""><a class="btn disabled btn-light" role="button" aria-disabled="true">
+                                            <div class="iconSquareReturn"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-8 offset-1">
+                                    <p class="servicesText">14 days easy Return
+                                    <p class="deliveryDays">Change of mind is not applicable</p>
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <div class="row marginReduce">
+                                <div class="col-1 mt-1">
+                                    <div class=""><a class="btn disabled btn-light" role="button" aria-disabled="true">
+                                            <div class="iconSquareShield"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-6 offset-1 ">
+                                    <p class="servicesText">1 Year Brand Warrenty</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="d-flex justify-content-center">
+                <div class="imgPrice row">
+                    <div class="singlesImgContainer2 rounded shadow">
+                        <div class="d-flex justify-content-center">
+                            <div class=" itemImgBG"> <img src="./css/Home images/tuf2.png" class="itemImg" alt=""></div>
+                        </div>
+                        <div class="starIconsContainer d-flex align-items-center">
+                            <div class="starIcon"></div>
+                            <div class="starIcon"></div>
+                            <div class="starIcon"></div>
+                            <div class="starIcon"></div>
+                            <div class="halfStarIcon"></div>
+
+                            <div class="smallTextCart margin">200 reviews | 20+ sold</div>
+                        </div>
+                        <div class="break2"></div>
+                        <div class="d-flex">
+                            <div class=" col-1 offset-1"><a class="btn">
+                                    <div class="iconSquareWatchlistHeart"></div>
+                                </a>
+                            </div>
+
+                            <div class=" col-1 offset-1"><a class="btn">
+                                    <div class="iconSquareWatchlistShare"></div>
+                                </a></div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="singlesPriceContainer2">
+
+                        <div class="margin">
+                            <div class="row mt-3">
+
+                                <div class="smallDetailsText">Delivery</div>
+                                <div class="row  mt-1">
+                                    <div class="col-1 ">
+                                        <div class=""><a class="btn disabled btn-light" role="button"
+                                                aria-disabled="true">
+                                                <div class="iconSquareLocation"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 offset-1">
+                                        <p class="smallDetailsText">Western, Colombo 1-15, Colombo 01 - Fort</p>
+                                    </div>
+                                    <div class="col-3"><a class="locationChangeText" href="#">Change</a></div>
+                                </div>
+                                <div class="row marginReduce">
+                                    <div class="col-1">
+                                        <div class=""><a class="btn disabled btn-light" role="button"
+                                                aria-disabled="true">
+                                                <div class="iconSquareDelivery"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 offset-1">
+                                        <p class="smallDetailsText"><b>Standard Delivery</b>
+                                        <p class="deliveryDays">4-5 day(s)</p>
+                                        </p>
+                                    </div>
+                                    <div class="col-3 text-start">
+                                        <p class="smallTextCart"><b>Rs. 300</b></p>
+                                    </div>
+                                </div>
+
+                                <div class="row marginReduce">
+                                    <div class="col-1">
+                                        <div class=""><a class="btn disabled btn-light" role="button"
+                                                aria-disabled="true">
+                                                <div class="iconSquareCod"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 offset-1 ">
+                                        <p class="smallDetailsText">Cash on Delivery Available</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="border border-1">
+                        <div class="margin">
+                            <div class="row mt-3">
+
+                                <div class="smallDetailsText">Service</div>
+                                <div class="row  mt-1">
+                                    <div class="col-1 mt-1">
+                                        <div class=""><a class="btn disabled btn-light" role="button"
+                                                aria-disabled="true">
+                                                <div class="iconSquareVerify"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-8 offset-1 ">
+                                        <p class="servicesText">100% Authentic from Trusted Brand</p>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <div class="col-1 mt-1">
+                                        <div class=""><a class="btn disabled btn-light" role="button"
+                                                aria-disabled="true">
+                                                <div class="iconSquareReturn"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-8 offset-1">
+                                        <p class="servicesText">14 days easy Return
+                                        <p class="deliveryDays">Change of mind is not applicable</p>
+                                        </p>
+                                    </div>
+
+                                </div>
+
+                                <div class="row marginReduce">
+                                    <div class="col-1 mt-1">
+                                        <div class=""><a class="btn disabled btn-light" role="button"
+                                                aria-disabled="true">
+                                                <div class="iconSquareShield"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 offset-1 ">
+                                        <p class="servicesText">1 Year Brand Warrenty</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="d-flex justify-content-center">
+                <div class="singlesDetailsContainer2 row">
+                    <div class="break"></div>
+                    <div class="margin">
+
+                        <h4>Asus Tuf Gaming F15</h4>
+                        <div class="smallDetailsText">Brand : <a class="smallDetailsText" href="#">Asus</a> | <a
+                                class="smallDetailsText" href="#">More from Asus</a>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <div class="margin">
+                        <p class="priceText">Rs. 270,000 </p>
+                        <p class="striked"><s>Rs.300,000</s> &nbsp;&nbsp;&nbsp;&nbsp;10% off</p>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-4 text-end smallTextCart">Installment Offers </div>
+                        <div class="col-7  smallTextCart">Installment plans available upto 24 months </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-4 text-end smallTextCart">Model</div>
+                        <a class="smallDetailsText col-2 text-center" href="#">Fortress Gray</a>
+                        <a class="smallDetailsText col-2 text-center" href="#">Bonfire Black</a>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-4 text-end smallTextCart">Quantity</div>
+                        <div class="col-2"><input type="number" class="form-control" style="height: 25px;"></div>
+                    </div>
+                    <div class="row justify-content-center gap-1 ">
+                        <a class="btn btn-outline-dark rounded-0 col-3 d-flex align-items-center justify-content-center"
+                            style="height: 45px;">Buy Now</a>
+                        <a class="btn btn-light rounded-0 col-3 d-flex align-items-center justify-content-center"
+                            style="height: 45px;" data-bs-toggle="modal" data-bs-target="#nope">Add to Cart</a>
+                        <!-- Modal -->
+                        <div class="modal fade" id="nope" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Cart</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h5 class="text-center">ROG ZEPHYRUS G15 Added to Cart</h5>
+                                        <div class="break"></div>
+                                        <button type="button" class="btn btn-danger offset-4 btn-sm rounded-0"
+                                            data-bs-dismiss="modal">Remove</button>
+                                        <button type="button" class="btn btn-primary btn-sm rounded-0"
+                                            data-bs-dismiss="modal">Done</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <hr>
+
+        <div class="productDetails row">
+            <div class="d-flex justify-content-center mt-4">
+                <h3>Product Details</h3>
+            </div>
+            <div>
+                <div class="row servicesText mt-2">
+                    <div class="col-sm-3 col-3 offset-0 offset-sm-2 text-end ">Model
+                    </div>
+                    <div class="col-sm-5 col-7">2021 ASUS TUF Gaming F15 FX506HF</div>
+                </div>
+
+                <div class="row servicesText mt-2">
+                    <div class="col-sm-3 col-3 offset-0 offset-sm-2 text-end ">Processor
+                    </div>
+                    <div class="col-sm-5 col-7">Intel® Core™ i5-11400H Processor 2.7 GHz '12M Cache, up to 4.5 GHz, 6
+                        Cores'</div>
+                </div>
+
+                <div class="row servicesText mt-2">
+                    <div class="col-sm-3 col-3 offset-0 offset-sm-2 text-end ">Memory
+                    </div>
+                    <div class="col-sm-5 col-7">16GB DDR4-3200'8x2' SO-DIMM Max Capacity:32GB</div>
+                </div>
+
+                <div class="row servicesText mt-2">
+                    <div class="col-sm-3 col-3 offset-0 offset-sm-2 text-end ">Storage
+                    </div>
+                    <div class="col-sm-5 col-7">512GB PCIe® 3.0 NVMe™ M.2 SSD</div>
+                </div>
+
+                <div class="row servicesText mt-2">
+                    <div class="col-sm-3 col-3 offset-0 offset-sm-2 text-end ">Dispaly
+                    </div>
+                    <div class="col-sm-5 col-7">15.6-inch, FHD '1920 x 1080' 16:9, Value IPS-level, Anti-glare display,
+                        sRGB:62.5%,Adobe:47.34%, Refresh Rate:144Hz, Adaptive-Sync, Optimus</div>
+                </div>
+
+                <div class="row servicesText mt-2">
+                    <div class="col-sm-3 col-3 offset-0 offset-sm-2 text-end ">Graphics
+                    </div>
+                    <div class="col-sm-5 col-7">NVIDIA® GeForce RTX™ 2050 Laptop GPU, Up to 1625MHz at 55W 'TGP 70W with
+                        Dynamic Boost' *Vary by scenario, 4GB GDDR6</div>
+                </div>
+
+
+                <div class="row servicesText mt-2">
+                    <div class="col-sm-3 col-3 offset-0 offset-sm-2 text-end ">Audio
+                    </div>
+                    <div class="col-sm-5 col-7">DTS software <br>
+                        AI noise-canceling technology<br>
+                        Support Microsoft Cortana near field/Far field<br>
+                        Built-in array microphone<br>
+                        2-speaker system</div>
+                </div>
+
+
+                <div class="row servicesText mt-2">
+                    <div class="col-sm-3 col-3 offset-0 offset-sm-2 text-end ">Ports
+                    </div>
+                    <div class="col-sm-5 col-7">1x 3.5mm Combo Audio Jack <br>
+                        1x HDMI 2.1 TMDS<br>
+                        3x USB 3.2 Gen 1 Type-A<br>
+                        1x RJ45 LAN port<br>
+                        1x Thunderbolt™ 4 support DisplayPort™</div>
+                </div>
+
+
+                <div class="row servicesText mt-2">
+                    <div class="col-sm-3 col-3 offset-0 offset-sm-2 text-end ">Keyboard
+                    </div>
+                    <div class="col-sm-5 col-7">Backlit Chiclet Keyboard 1-Zone RGB ,Touchpad</div>
+                </div>
+
+                <div class="row servicesText mt-2">
+                    <div class="col-sm-3 col-3 offset-0 offset-sm-2 text-end ">Weight 'kg'
+                    </div>
+                    <div class="col-sm-5 col-7">2.30 Kg '5.07 lbs'</div>
+                </div>
+
+                <div class="row servicesText mt-2">
+                    <div class="col-sm-3 col-3 offset-0 offset-sm-2 text-end ">Battery
+                    </div>
+                    <div class="col-sm-5 col-7">48WHrs, 3S1P, 3-cell Li-ion</div>
+                </div>
+
+                <div class="row servicesText mt-2">
+                    <div class="col-sm-3 col-3 offset-0 offset-sm-2 text-end ">Color
+                    </div>
+                    <div class="col-sm-5 col-7">Fortress Grey | Bonfire Black</div>
+                </div>
+
+                <div class="row servicesText mt-2">
+                    <div class="col-sm-3 col-3 offset-0 offset-sm-2 text-end ">OS
+                    </div>
+                    <div class="col-sm-5 col-7">Windows 11 Home</div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--         Whishlist      -->
+
+        <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="wishlist"
+            aria-labelledby="staticBackdropLabel">
+            <div class="offcanvas-header">
+                <img src="./css/Home images/favicon2.png" class="logoCartSlide" alt="">
+                <h5 class="offcanvas-title" id="staticBackdropLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div>
+                    <h3>Watchlist</h3>
+                    <div class="row">
+                        <div class="colorChange col-4 d-flex justify-content-center align-items-center opacity-50">
+                            <small>1 Item(s)</small>
+                        </div>
+                    </div>
+                </div>
+                <hr class="border border-dark ">
+                <div>
+                    <h5 class="smallTextCart">Current Items</h5>
+                    <div class="break"></div>
+                    <div class="watchListItemBG ">
+                        <div class="break"></div>
+                        <div class="row offset-1">
+                            <div class="cartSlideImgDiv border col-3 d-flex align-items-center justify-content-center">
+                                <img src="./css/Home images/zephyrus.png" class="cartSlideImg" alt="">
+                            </div>
+                            <div class=" col-9">
+                                <h5 class="smallTextCart2 col-12">ROG ZEPHYRUS G15</h5>
+                                <p class="smallTextCart col-5">Rs. 439,000</p>
+                            </div>
+                        </div>
+                        <div class="break2"></div>
+                        <div class="row">
+                            <div class="col-1 offset-2">
+                                <a class="btn" href="asusTuf.html">
+                                    <div class="iconSquareWatchlistSettings"></div>
+                                </a>
+                            </div>
+
+                            <div class=" col-1 offset-2"><a class="btn">
+                                    <div class="iconSquareWatchlistCart"></div>
+                                </a>
+                            </div>
+
+                            <div class=" col-1 offset-2"><a class="btn">
+                                    <div class="iconSquareWatchlistDelete"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="break3"></div>
+                <a class="btn btn-dark btn-sm col-8" href="purchase.html">My Orders</a>
+            </div>
+        </div>
+
+
+
+        <!--         Shopping cart      -->
+
+        <div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="cartslide"
+            aria-labelledby="staticBackdropLabel">
+            <div class="offcanvas-header">
+                <img src="./css/Home images/favicon2.png" class="logoCartSlide" alt="">
+                <h5 class="offcanvas-title" id="staticBackdropLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div>
+                    <h3>My Cart</h3>
+                    <div class="row">
+                        <p class="text-success col-7">Cart Subtotal : Rs. 270,000</p>
+                        <div class="colorChange col-4 d-flex justify-content-center align-items-center opacity-50">
+                            <small>1 Items Added</small>
+                        </div>
+                    </div>
+                </div>
+                <hr class="border border-dark ">
+                <div>
+                    <h5 class="smallTextCart">Cart Includes</h5>
+                    <div class="break"></div>
+                    <div class="row offset-1">
+                        <div class="cartSlideImgDiv border col-3 d-flex align-items-center justify-content-center"><img
+                                src="./css/Home images/tuf2.png" class="cartSlideImg" alt=""></div>
+                        <div class=" col-9">
+                            <h5 class="smallTextCart2 col-12">Asus Tuf F15</h5>
+                            <p class="smallTextCart col-5">Rs.270,000</p>
+                        </div>
+                    </div>
+                    <div class="break2"></div>
+                    <div class="row">
+                        <span class="col-1 offset-1 smallTextCart">Qty</span>
+                        <div class="col-3">
+                            <input type="number" class="form-control" value="1" style="height: 28px;">
+                        </div>
+                        <div class="col-1 ">
+                            <a class="btn" href="asusTuf.html">
+                                <div class="iconSquareWatchlistSettings"></div>
+                            </a>
+                        </div>
+
+                        <div class=" col-1 offset-1"><a class="btn">
+                                <div class="iconSquareWatchlistHeart"></div>
+                            </a>
+                        </div>
+                        <div class=" col-1 offset-1"><a class="btn">
+                                <div class="iconSquareWatchlistDelete"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="break3"></div>
+                <a class="btn btn-dark col-10 offset-1" href="shoppingCart.html">View Cart</a>
+            </div>
+        </div>
+
+
+
+        <div class="break2"></div>
+        <div class="break2"></div>
+        <div class="footerContainer">
+            <div class="break3"></div>
+            <div class="row">
+
+                <div class="col-lg-2 col-4 col-sm-3 offset-1 offset-sm-2">
+                    <h5>About</h5>
+                    <ul class="ul1">
+                        <li class="li1"><a>About us</a></li>
+                        <li class="li1"><a>Careers</a></li>
+                        <li class="li1"><a>Contact us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-4 col-sm-3">
+                    <h5>Help</h5>
+                    <ul class="ul1">
+                        <li class="li1"><a>FAQ</a></li>
+                        <li class="li1"><a>How to Buy</a></li>
+                        <li class="li1"><a>Shipping & Delivery</a></li>
+                        <li class="li1"><a>Warrenty Information</a></li>
+                        <li class="li1"><a>Return Products</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-4 col-sm-3 offset-1 offset-sm-0">
+                    <h5>Policies</h5>
+                    <ul class="ul1">
+                        <li class="li1"><a>Privacy Policy</a></li>
+                        <li class="li1"><a>Return and Refund Policy</a></li>
+                        <li class="li1"><a>Terms and Conditions</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-4 col-sm-3  u1">
+                    <h5>Keep in Touch</h5>
+                    <ul class="ul1 list-inline">
+                        <li class="li1 list-inline-item"><a><img src="./css/Home images/facebook.png" class="social1"
+                                    alt=""></a></li>
+                        <li class="li1 list-inline-item"><a><img src="./css/Home images/twitter.png" class="social1"
+                                    alt=""></a></li>
+                        <li class="li1 list-inline-item"><a><img src="./css/Home images/instagram.png" class="social1"
+                                    alt=""></a></li>
+                        <li class="li1 list-inline-item"><a><img src="./css/Home images/linkedin.png" class="social1"
+                                    alt=""></a></li>
+                        <li class="li1 list-inline-item"><a><img src="./css/Home images/youtube.png" class="social1"
+                                    alt=""></a></li>
+                    </ul>
+                </div>
+
+                <div class="break"></div>
+
+                <div class="row u2">
+                    <ul class="ul1 list-inline d-flex justify-content-center">
+                        <li class="li1 list-inline-item"><a><img src="./css/Home images/facebook.png" class="social1"
+                                    alt=""></a></li>
+                        <li class="li1 list-inline-item"><a><img src="./css/Home images/twitter.png" class="social1"
+                                    alt=""></a></li>
+                        <li class="li1 list-inline-item"><a><img src="./css/Home images/instagram.png" class="social1"
+                                    alt=""></a></li>
+                        <li class="li1 list-inline-item"><a><img src="./css/Home images/linkedin.png" class="social1"
+                                    alt=""></a></li>
+                        <li class="li1 list-inline-item"><a><img src="./css/Home images/youtube.png" class="social1"
+                                    alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="break2"></div>
+        <div class="footerMain ">Copyright © 2023 NewTECH. All Rights Reserved.</div>
+
+
+
+    </div>
+
+    <script src="./Js/bootstrap.bundle.js"></script>
+    <script src="./Js/script.js"></script>
+</body>
+
+</html>

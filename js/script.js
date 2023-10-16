@@ -3,6 +3,7 @@ $(document).ready(function () {
   $("#contentsContainer").hide();
   $("#page2Begin").hide();
   $("#downButton1").hide();
+  $("#page3Begin").hide();
 
   $(document).mousemove(function () {
     $("#myName").animate(
@@ -46,8 +47,20 @@ $(document).ready(function () {
       $("#page2Begin").fadeIn();
     });
 
+    $("#goToPageTwo").click(function() {
+      $("#page2Begin").fadeIn();
+      $("#page3Begin").fadeIn();
+    });
+
+
+
+
     $("#downButton1").click(function() {
       $("#page2Begin").fadeIn(500);
+    });
+
+    $("#downButton1").click(function() {
+      $("#page3Begin").fadeIn(500);
     });
 
 

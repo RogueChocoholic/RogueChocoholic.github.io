@@ -1,0 +1,266 @@
+.break {
+    height: 10px;
+
+}
+
+.break2 {
+    height: 25px;
+
+}
+
+.break3 {
+    height: 30px;
+}
+
+.aFilter {
+    font-size: 14px;
+    font-weight: bold;
+
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    height: 50px;
+}
+
+.cart {
+    height: 18px;
+}
+
+.iconSquareWatchlistSettings {
+    height: 17px;
+    width: 17px;
+
+    background-image: url("./Home images/settings.png");
+    background-size: cover;
+}
+
+.iconSquareWatchlistDelete {
+    height: 17px;
+    width: 17px;
+
+    background-image: url("./Home images/trash.png");
+    background-size: cover;
+
+}
+
+.iconSquareWatchlistHeart {
+    height: 17px;
+    width: 17px;
+
+    background-image: url("./Home images/heart.png");
+    background-size: cover;
+
+}
+
+.iconSquareWatchlistCart {
+    height: 17px;
+    width: 17px;
+
+    background-image: url("./Home images/shopping-cart copy.png");
+    background-size: cover;
+
+}
+
+
+.watchListItemBG {
+    background-color: whitesmoke;
+
+    height: 140px;
+    width: 100%;
+}
+
+.searchIcon {
+    height: 20px;
+}
+
+.topFix {
+    background-color: whitesmoke;
+
+    height: 70px;
+}
+
+.categoryCard1 {
+    height: 450px;
+    width: 450px;
+
+    background-image: url("./Home images/laptop\ thumbnail.png");
+    background-size: cover;
+
+}
+
+.categoryCard2 {
+    height: 450px;
+    width: 450px;
+
+    background-image: url("./Home images/lap\ accessory\ thumb.png");
+    background-size: cover;
+
+}
+
+.menuContainer {
+    display: none;
+
+    background-color: white;
+
+    height: 135px;
+}
+
+.menuArrow {
+    display: none;
+}
+
+
+.noBoarder {
+    border: none;
+}
+
+.productContainer {
+    height: 500px;
+
+    background-color: whitesmoke;
+}
+
+.footerContainer {
+    height: 300px;
+
+    background-color: whitesmoke;
+
+    overflow-x: hidden;
+}
+
+.ul1 {
+    font-size: 15px;
+
+    list-style: none;
+
+    padding-left: 0;
+
+}
+
+.li1 {
+    padding-top: 15px;
+}
+
+.footerMain {
+    font-size: 14px;    
+
+    text-align: center;
+}
+
+.social1 {
+    height: 25px;
+
+}
+
+.u2 {
+    display: none;
+}
+
+.colorChange {
+    background-color: rgb(236, 236, 236);
+
+    font-size: 14px;
+
+    height: 25px;
+}
+
+.smallTextCart {
+    font-size: 14px;
+}
+
+.smallTextCart2 {
+    font-size: 16px;
+}
+
+.cartIcons {
+    height: 24px;
+    width: 14px;
+
+    background-image: url("./Home images/settings.png");
+    background-size: cover;
+}   
+
+.cartIcons2 {
+    height: 24px;
+    width: 14px;
+
+    background-image: url("./Home images/trash.png");
+    background-size: cover;
+} 
+
+.cartSlideImg {
+    height: 50px;
+}
+
+.logoCartSlide{
+    height: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width : 1155px) {
+    .topDetails {
+        display: none;
+    }
+}
+
+@media (max-width : 845px) {
+    .menuArrow {
+        display: block;
+    }
+
+    .removeBtns {
+        display: none;
+    }
+}
+
+@media (max-width : 645px) {
+    .footerContainer {
+        height: 450px;
+    }
+}
+
+
+
+
+@media (max-width : 992px){
+    .u1 {
+        display: none;
+    }
+
+    .u2 {
+        display: block;
+    }
+
+    .footerContainer {
+        height: 400px;
+    }
+}
+
+@media (max-width : 576px) {
+    .footerContainer {
+        height: 550px;
+    }
+
+    .u1 {
+        display: block;
+    }
+
+    .u2 {
+        display: none;
+    }
+}

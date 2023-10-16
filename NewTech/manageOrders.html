@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NewTECH | Manage Items</title>
+    <link rel="icon" href="./css/Home images/favicon2.png">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/styleManageOrders.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="break"></div>
+        <div class="row topDetails">
+            <a class="col-2 offset-1 aFilter" href="#">
+                <p>Hotline +94914446665</p>
+            </a>
+            <div class="col-1">|</div>
+            <a class="col-2 aFilter" href="#">
+                <p>Customer Support</p>
+            </a>
+            <div class="col-1">|</div>
+            <a class="col-2 aFilter" href="#">
+                <p>Our Stores</p>
+            </a>
+            <div class="col-1">|</div>
+            <a class="col-2 aFilter" href="adminPanel.html">
+                <p>Admin Panel</p>
+            </a>
+        </div>
+
+        <div class="break"></div>
+        <div class="break"></div>
+
+
+        <div class=" row shadow">
+            <div class="topFix d-flex align-items-center gap-1">
+                <a class="offset-2 "><img src="./css/Home images/Asset 2.png" class="logo" alt=""></a>
+                <a class="btn btn-sm col-1 " href="index.html">Home</a>
+                <a class="btn btn-sm col-1 removeBtns" href="listing.html">All Products</a>
+                <a class="btn btn-sm col-1 removeBtns">Contact Us</a>
+                <a class="btn btn-sm col-2 col-md-1 removeBtns" href="index.html">My Account</a>
+
+
+                <a class="btn btn-dark btn-sm col-1 removeBtns" href="login.html">Log-in</a>
+                <a class="btn btn-dark btn-sm col-1 removeBtns" href="signup.html">Sign-up</a>
+                <a class="btn col-2 col-md-1 menuArrow offset-md-4 offset-1"><img src="./css/Home images/angle-small-down.png"
+                        class="cart" onclick="manualDropdown();" alt=""></a>
+                <a class="btn col-md-1 col-2" data-bs-toggle="offcanvas" data-bs-target="#cartslide"
+                    aria-controls="cartslide"><img src="./css/Home images/shopping-cart.png" class="cart" alt=""></a>
+                <a class="btn col-md-1 col-2" data-bs-toggle="offcanvas" data-bs-target="#wishlist"
+                    aria-controls="cartslide"><img src="./css/Home images/heart.png" class="cart" alt=""></a>
+            </div>
+            <div class="break"></div>
+
+
+
+
+            <div class="row">
+                <div class="menuContainer col-10 offset-1 shadow rounded" onmouseleave="dropDownOver()"
+                    id="menuContainer">
+                    <div class="break"></div>
+                    <div class="row">
+                        <a class="btn btn-sm col-5 offset-1" href="listing.html">All Products</a>
+
+                        <a class="btn  btn-sm col-5 ">Contact Us</a>
+                        <div class="break"></div>
+                    </div>
+
+
+                    <a class="btn btn-dark btn-sm col-5 offset-1" href="login.html">Log-in</a>
+                    <a class="btn btn-dark btn-sm col-5 " href="signup.html">Sign-up</a>
+                    <div class="break"></div>
+
+                    <a class="btn btn-sm col-6 offset-3" href="index.html">My Account</a>
+                    <div class="break"></div>
+                </div>
+            </div>
+
+
+
+            <div class="break2"></div>
+
+            <div class="col-8 offset-2 col-xl-6 offset-xl-3">
+                <div class="input-group">
+                    <a class="btn btn-primary" id="btnGroupAddon2" href="listing.html"><img src="./css/Home images/search.png"
+                            class="searchIcon" alt="">
+                    </a>
+                    <input type="search" class="form-control col-4" placeholder="Search Products"
+                        aria-label="Input group example" aria-describedby="btnGroupAddon2">
+                </div>
+            </div>
+            <div class="break"></div>
+        </div>
+
+        <div class="adminContainer p-5">
+            <div class="OrdersContainer shadow rounded-2 p-4">
+                <h2 style="font-weight: lighter;">Manage Items</h2>
+
+                <div class="row mt-4">
+
+                    <div class="form-check form-switch col-2 offset-1">
+                        <input class="form-check-input" type="checkbox" style="width: 24px;" role="switch"
+                            id="flexSwitchCheckChecked" checked>
+                        <label class="form-check-label smallTextCart    " for="flexSwitchCheckChecked ">In Stock</label>
+                    </div>
+
+                    <div class="form-check form-switch col-2">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked"
+                            checked>
+                        <label class="form-check-label smallTextCart" for="flexSwitchCheckChecked">Out of Stock</label>
+                    </div>
+
+
+                    <div class="col-4">
+                        <div class="input-group mb-3 ">
+                            <input type="text" class="form-control smallTextCart" style="height: 35px;"
+                                placeholder="Search by name" aria-label="Recipient's username"
+                                aria-describedby="button-addon2">
+                            <button class="btn btn-outline-secondary smallTextCart" style="height: 35px;" type="button"
+                                id="button-addon2">&#128269;</button>
+                        </div>
+                    </div>
+
+
+                    <div class="col-2">
+                        <select class="form-select smallTextCart" aria-label="Default select example">
+                            <option selected>5 Items/pg</option>
+                            <option value="1">30 Items/pg</option>
+                            <option value="2">50 Items/pg</option>
+                            <option value="3">100 Items/pg</option>
+                        </select>
+                    </div>
+
+                </div>
+
+
+
+
+                <table class="table table-striped smallTextCart mt-4">
+                    <tr>
+                        <th><input type="checkbox" class=" form-check"></th>
+                        <th>Item</th>
+                        <th>Status</th>
+                        <th>Stock</th>
+                        <th>Ongoing</th>
+                        <th>Completed</th>
+                        <th>Manage</th>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class=" form-check"></td>
+                        <td>Asus Tuf F15</td>
+                        <td>Instock</td>
+                        <td>2023-06-23</td>
+                        <td>5</td>
+                        <td>34</td>
+                        <td>
+                            <div class="row">
+                                <div class=" col-1"><a class="btn">
+                                        <div class="iconSquareWatchlistDelete"></div>
+                                    </a>
+                                </div>
+                                <div class="col-1  offset-1 ">
+                                    <a class="btn" href="updateItem.html">
+                                        <div class="iconSquareWatchlistSettings"></div>
+                                    </a>
+                                </div>
+                                <div class="form-check form-switch col-1 offset-2" style="margin-top: 5px;">
+                                    <input class="form-check-input" style="width: 24px; height: 17px;" type="checkbox"
+                                        role="switch" checked>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" class=" form-check"></td>
+                        <td>Rog Zephyrus G15</td>
+                        <td>Instock</td>
+                        <td>2023-06-11</td>
+                        <td>2</td>
+                        <td>20</td>
+                        <td>
+                            <div class="row">
+                                <div class=" col-1"><a class="btn">
+                                        <div class="iconSquareWatchlistDelete"></div>
+                                    </a>
+                                </div>
+                                <div class="col-1  offset-1 ">
+                                    <a class="btn" href="updateItem.html">
+                                        <div class="iconSquareWatchlistSettings"></div>
+                                    </a>
+                                </div>
+                                <div class="form-check form-switch col-1 offset-2" style="margin-top: 5px;">
+                                    <input class="form-check-input" style="width: 24px; height: 17px;" type="checkbox"
+                                        role="switch" checked>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" class=" form-check"></td>
+                        <td>MSI Cyborg 15</td>
+                        <td>Out of stock</td>
+                        <td>2023-06-10</td>
+                        <td>0</td>
+                        <td>65</td>
+                        <td>
+                            <div class="row">
+                                <div class=" col-1"><a class="btn">
+                                        <div class="iconSquareWatchlistDelete"></div>
+                                    </a>
+                                </div>
+                                <div class="col-1  offset-1 ">
+                                    <a class="btn" href="updateItem.html">
+                                        <div class="iconSquareWatchlistSettings"></div>
+                                    </a>
+                                </div>
+                                <div class="form-check form-switch col-1 offset-2" style="margin-top: 5px;">
+                                    <input class="form-check-input" style="width: 24px; height: 17px;" type="checkbox"
+                                        role="switch">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td><input type="checkbox" class=" form-check"></td>
+                        <td>GIGABYE H510M H</td>
+                        <td>Instock</td>
+                        <td>2023-05-08</td>
+                        <td>3</td>
+                        <td>7</td>
+                        <td>
+                            <div class="row">
+                                <div class=" col-1"><a class="btn">
+                                        <div class="iconSquareWatchlistDelete"></div>
+                                    </a>
+                                </div>
+                                <div class="col-1  offset-1 ">
+                                    <a class="btn" href="updateItem.html">
+                                        <div class="iconSquareWatchlistSettings"></div>
+                                    </a>
+                                </div>
+                                <div class="form-check form-switch col-1 offset-2" style="margin-top: 5px;">
+                                    <input class="form-check-input" style="width: 24px; height: 17px;" type="checkbox"
+                                        role="switch" checked>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" class=" form-check"></td>
+                        <td>Haylou RS4 Plus</td>
+                        <td>Instock</td>
+                        <td>2023-05-08</td>
+                        <td>23</td>
+                        <td>73</td>
+                        <td>
+                            <div class="row">
+                                <div class=" col-1"><a class="btn">
+                                        <div class="iconSquareWatchlistDelete"></div>
+                                    </a>
+                                </div>
+                                <div class="col-1  offset-1 ">
+                                    <a class="btn" href="updateItem.html">
+                                        <div class="iconSquareWatchlistSettings"></div>
+                                    </a>
+                                </div>
+                                <div class="form-check form-switch col-1 offset-2" style="margin-top: 5px;">
+                                    <input class="form-check-input" style="width: 24px; height: 17px;" type="checkbox"
+                                        role="switch" checked>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+
+                </table>
+
+                <div class="offset-md-5 offset-4 col-4">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--         Whishlist      -->
+
+        <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="wishlist"
+            aria-labelledby="staticBackdropLabel">
+            <div class="offcanvas-header">
+                <img src="./css/Home images/favicon2.png" class="logoCartSlide" alt="">
+                <h5 class="offcanvas-title" id="staticBackdropLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div>
+                    <h3>Watchlist</h3>
+                    <div class="row">
+                        <div class="colorChange col-4 d-flex justify-content-center align-items-center opacity-50">
+                            <small>1 Item(s)</small>
+                        </div>
+                    </div>
+                </div>
+                <hr class="border border-dark ">
+                <div>
+                    <h5 class="smallTextCart">Current Items</h5>
+                    <div class="break"></div>
+                    <div class="watchListItemBG ">
+                        <div class="break"></div>
+                        <div class="row offset-1">
+                            <div class="cartSlideImgDiv border col-3 d-flex align-items-center justify-content-center">
+                                <img src="./css/Home images/zephyrus.png" class="cartSlideImg" alt="">
+                            </div>
+                            <div class=" col-9">
+                                <h5 class="smallTextCart2 col-12">ROG ZEPHYRUS G15</h5>
+                                <p class="smallTextCart col-5">Rs. 439,000</p>
+                            </div>
+                        </div>
+                        <div class="break2"></div>
+                        <div class="row">
+                            <div class="col-1 offset-2">
+                                <a class="btn" href="asusTuf.html">
+                                    <div class="iconSquareWatchlistSettings"></div>
+                                </a>
+                            </div>
+
+                            <div class=" col-1 offset-2"><a class="btn">
+                                    <div class="iconSquareWatchlistCart"></div>
+                                </a>
+                            </div>
+
+                            <div class=" col-1 offset-2"><a class="btn">
+                                    <div class="iconSquareWatchlistDelete"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="break3"></div>
+                <a class="btn btn-dark btn-sm col-8" href="purchase.html">My Orders</a>
+            </div>
+        </div>
+
+
+
+        <!--         Shopping cart      -->
+
+        <div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="cartslide"
+            aria-labelledby="staticBackdropLabel">
+            <div class="offcanvas-header">
+                <img src="./css/Home images/favicon2.png" class="logoCartSlide" alt="">
+                <h5 class="offcanvas-title" id="staticBackdropLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div>
+                    <h3>My Cart</h3>
+                    <div class="row">
+                        <p class="text-success col-7">Cart Subtotal : Rs. 270,000</p>
+                        <div class="colorChange col-4 d-flex justify-content-center align-items-center opacity-50">
+                            <small>1 Items Added</small>
+                        </div>
+                    </div>
+                </div>
+                <hr class="border border-dark ">
+                <div>
+                    <h5 class="smallTextCart">Cart Includes</h5>
+                    <div class="break"></div>
+                    <div class="row offset-1">
+                        <div class="cartSlideImgDiv border col-3 d-flex align-items-center justify-content-center"><img
+                                src="./css/Home images/tuf2.png" class="cartSlideImg" alt=""></div>
+                        <div class=" col-9">
+                            <h5 class="smallTextCart2 col-12">Asus Tuf F15</h5>
+                            <p class="smallTextCart col-5">Rs.270,000</p>
+                        </div>
+                    </div>
+                    <div class="break2"></div>
+                    <div class="row">
+                        <span class="col-1 offset-1 smallTextCart">Qty</span>
+                        <div class="col-3">
+                            <input type="number" class="form-control" value="1" style="height: 28px;">
+                        </div>
+                        <div class="col-1 ">
+                            <a class="btn" href="asusTuf.html">
+                                <div class="iconSquareWatchlistSettings"></div>
+                            </a>
+                        </div>
+
+                        <div class=" col-1 offset-1"><a class="btn">
+                                <div class="iconSquareWatchlistHeart"></div>
+                            </a>
+                        </div>
+                        <div class=" col-1 offset-1"><a class="btn">
+                                <div class="iconSquareWatchlistDelete"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="break3"></div>
+                <a class="btn btn-dark col-10 offset-1" href="shoppingCart.html">View Cart</a>
+            </div>
+        </div>
+
+
+
+        <div class="break2"></div>
+        <div class="break2"></div>
+        <div class="footerContainer">
+            <div class="break3"></div>
+            <div class="row">
+
+                <div class="col-lg-2 col-4 col-sm-3 offset-1 offset-sm-2">
+                    <h5>About</h5>
+                    <ul class="ul1">
+                        <li class="li1"><a>About us</a></li>
+                        <li class="li1"><a>Careers</a></li>
+                        <li class="li1"><a>Contact us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-4 col-sm-3">
+                    <h5>Help</h5>
+                    <ul class="ul1">
+                        <li class="li1"><a>FAQ</a></li>
+                        <li class="li1"><a>How to Buy</a></li>
+                        <li class="li1"><a>Shipping & Delivery</a></li>
+                        <li class="li1"><a>Warrenty Information</a></li>
+                        <li class="li1"><a>Return Products</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-4 col-sm-3 offset-1 offset-sm-0">
+                    <h5>Policies</h5>
+                    <ul class="ul1">
+                        <li class="li1"><a>Privacy Policy</a></li>
+                        <li class="li1"><a>Return and Refund Policy</a></li>
+                        <li class="li1"><a>Terms and Conditions</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-4 col-sm-3  u1">
+                    <h5>Keep in Touch</h5>
+                    <ul class="ul1 list-inline">
+                        <li class="li1 list-inline-item"><a><img src="./css/Home images/facebook.png" class="social1"
+                                    alt=""></a></li>
+                        <li class="li1 list-inline-item"><a><img src="./css/Home images/twitter.png" class="social1"
+                                    alt=""></a></li>
+                        <li class="li1 list-inline-item"><a><img src="./css/Home images/instagram.png" class="social1"
+                                    alt=""></a></li>
+                        <li class="li1 list-inline-item"><a><img src="./css/Home images/linkedin.png" class="social1"
+                                    alt=""></a></li>
+                        <li class="li1 list-inline-item"><a><img src="./css/Home images/youtube.png" class="social1"
+                                    alt=""></a></li>
+                    </ul>
+                </div>
+
+                <div class="break"></div>
+
+                <div class="row u2">
+                    <ul class="ul1 list-inline d-flex justify-content-center">
+                        <li class="li1 list-inline-item"><a><img src="./css/Home images/facebook.png" class="social1"
+                                    alt=""></a></li>
+                        <li class="li1 list-inline-item"><a><img src="./css/Home images/twitter.png" class="social1"
+                                    alt=""></a></li>
+                        <li class="li1 list-inline-item"><a><img src="./css/Home images/instagram.png" class="social1"
+                                    alt=""></a></li>
+                        <li class="li1 list-inline-item"><a><img src="./css/Home images/linkedin.png" class="social1"
+                                    alt=""></a></li>
+                        <li class="li1 list-inline-item"><a><img src="./css/Home images/youtube.png" class="social1"
+                                    alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="break2"></div>
+        <div class="footerMain ">Copyright © 2023 NewTECH. All Rights Reserved.</div>
+
+
+
+    </div>
+
+    <script src="./Js/bootstrap.bundle.js"></script>
+    <script src="./Js/scriptPurchase.js"></script>
+</body>
+
+</html>

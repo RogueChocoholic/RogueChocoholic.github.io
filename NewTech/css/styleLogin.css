@@ -1,0 +1,171 @@
+body {
+    background-image: url("./Home images/6209952_3185947.jpg");
+    background-size: cover;
+}
+
+.loginContainer {
+    height: 600px;
+    width: 480px;
+
+
+    background-color: aqua;
+}
+
+.logoContainer {
+    height: 500px;
+    width: 480px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftImg {
+    width:  18rem;
+    object-fit:cover;
+}
+
+.circle {
+    height: 80px;
+    width: 80px;
+
+    background-image: url("./Home images/siloughette.png");
+    background-size: cover;
+
+    border-radius: 50%;
+}
+
+.break {
+    height: 20px;
+}
+
+.break2 {
+    height: 30px;
+}
+
+.forgot {
+    font-size: 13px;
+}
+
+.forgot2 {
+    font-size: 15px;
+
+    margin-left: 20px;
+}
+
+.b1 {
+    border-radius: 20px;
+
+    text-align: center;
+}
+
+.b2 {
+    border-radius: 20px;
+
+    text-align: center;
+
+    height: 50px;
+}
+
+.border-none {
+    border: none;
+}
+
+.bheight {
+    height: 50px;
+    
+}
+
+.orSignUp {
+    display: flex;
+}
+
+.middle {
+    margin-top: 10px;
+}
+
+.altButton1 {
+    height: 25px;
+    width: 25px;
+
+
+    background-image: url("./Home images/google.svg");
+    background-size: cover;
+}
+
+.altButton2 {
+    height: 25px;
+    width: 25px;
+
+
+    background-image: url("./Home images/apple.svg");
+    background-size: cover;
+}
+
+.altButton3 {
+    height: 25px;
+    width: 25px;
+
+
+    background-image: url("./Home images/facebook.svg");
+    background-size: cover;
+}
+
+.ca {
+    font-size: 13px;
+}
+
+.caa {
+    color: black;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+.footer1 {
+    margin-top: 210px;
+
+    font-size: 14px;    
+
+}
+
+.navbarwhite {
+    background-color: white;
+
+    height: 8vh;
+}
+
+@media (max-width : 1500px){
+
+    body {
+        background-size: 1500px;
+    }
+}
+
+@media (max-width : 992px) {
+    .align {
+        display: flex;
+        justify-content: center;
+
+        margin-top: 20vh;
+    }
+    
+}
+
+@media (max-width : 950px){
+    body {
+        background-size: cover;
+    }
+}
+
+@media (min-width : 965px) {
+    .loginContainer {
+        position: absolute;
+    }
+
+    .align {
+        margin-top: 20vh;
+    }
+}
+

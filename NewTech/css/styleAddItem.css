@@ -1,0 +1,1061 @@
+.break {
+    height: 10px;
+
+}
+
+.break2 {
+    height: 25px;
+
+}
+
+.break3 {
+    height: 30px;
+}
+
+.aFilter {
+    font-size: 14px;
+    font-weight: bold;
+
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    height: 50px;
+}
+
+.logoCartSlide {
+    height: 80px;
+}
+
+.cart {
+    height: 18px;
+}
+
+.searchIcon {
+    height: 20px;
+}
+
+.topFix {
+    background-color: whitesmoke;
+
+    height: 70px;
+}
+
+.categoryCard1 {
+    height: 450px;
+    width: 450px;
+
+    background-image: url("./Home images/laptop\ thumbnail.png");
+    background-size: cover;
+
+}
+
+.categoryCard2 {
+    height: 450px;
+    width: 450px;
+
+    background-image: url("./Home images/lap\ accessory\ thumb.png");
+    background-size: cover;
+
+}
+
+.menuContainer {
+    display: none;
+
+    background-color: white;
+
+    height: 135px;
+}
+
+.menuArrow {
+    display: none;
+}
+
+
+.noBoarder {
+    border: none;
+}
+
+.productContainer {
+    height: 500px;
+
+    background-color: whitesmoke;
+}
+
+.footerContainer {
+    height: 300px;
+
+    background-color: whitesmoke;
+
+    overflow-x: hidden;
+}
+
+.ul1 {
+    font-size: 15px;
+
+    list-style: none;
+
+    padding-left: 0;
+
+}
+
+.li1 {
+    padding-top: 15px;
+}
+
+.footerMain {
+    font-size: 14px;
+
+    text-align: center;
+}
+
+.social1 {
+    height: 25px;
+
+}
+
+.u2 {
+    display: none;
+}
+
+.filters {
+    height: 900px;
+    width: 320px;
+
+    background-color: rgb(247, 246, 246);
+
+}
+
+.products1 {
+    height: 1000px;
+    width: 1050px;
+
+}
+
+.filterMenuButton {
+    display: none;
+}
+
+.filterMenu {
+    height: 400px;
+
+    background-color: rgb(247, 246, 246);
+
+    display: none;
+}
+
+.setoff {
+    margin-left: 70px;
+}
+
+.setoff3 {
+    margin-left: 100px;
+}
+
+.rem {
+    width: 25rem;
+}
+
+.away100 {
+    margin-left: 100px;
+}
+
+.colorChange {
+    background-color: rgb(236, 236, 236);
+
+    font-size: 14px;
+
+    height: 25px;
+}
+
+.smallTextCart {
+    font-size: 14px;
+}
+
+.smallTextCart2 {
+    font-size: 16px;
+}
+
+
+
+.cartSlideImg {
+    height: 50px;
+}
+
+.itemList {
+    width: 800px;
+    height: 400px;
+
+    padding-right: 0px;
+
+    background-color: whitesmoke;
+}
+
+.checkout {
+    width: 480px;
+    height: 380px;
+
+    background-color: rgb(253, 251, 251);
+}
+
+.heading {
+    font-size: 20px;
+}
+
+.margin {
+    margin-left: 30px;
+}
+
+.margin2 {
+    margin-left: 25px;
+}
+
+.checkoutText {
+    font-size: 15px;
+
+    opacity: 80%;
+}
+
+.selectAll {
+    background-color: whitesmoke;
+
+}
+
+.iconSquare {
+    height: 15px;
+    width: 15px;
+
+    background-image: url("./Home images/trash.png");
+    background-size: cover;
+
+    opacity: 60%;
+}
+
+.iconSquare2 {
+    height: 15px;
+    width: 15px;
+
+    background-image: url("./Home images/heart.png");
+    background-size: cover;
+
+    opacity: 60%;
+}
+
+
+.iconSquareWatchlistSettings {
+    height: 17px;
+    width: 17px;
+
+    background-image: url("./Home images/settings.png");
+    background-size: cover;
+}
+
+.iconSquareWatchlistDelete {
+    height: 17px;
+    width: 17px;
+
+    background-image: url("./Home images/trash.png");
+    background-size: cover;
+
+}
+
+.iconSquareWatchlistHeart {
+    height: 17px;
+    width: 17px;
+
+    background-image: url("./Home images/heart.png");
+    background-size: cover;
+
+}
+
+.iconSquareWatchlistShare {
+    height: 17px;
+    width: 17px;
+
+    background-image: url("./Home images/share1.png");
+    background-size: cover;
+
+}
+
+.iconSquareWatchlistCart {
+    height: 17px;
+    width: 17px;
+
+    background-image: url("./Home images/shopping-cart copy.png");
+    background-size: cover;
+
+}
+
+.iconSquareLocation {
+    height: 17px;
+    width: 17px;
+
+    background-image: url("./Home images/location.png");
+    background-size: cover;
+
+}
+
+.iconSquareDelivery {
+    height: 17px;
+    width: 17px;
+
+    background-image: url("./Home images/delivery.png");
+    background-size: cover;
+
+}
+
+.iconSquareCod {
+    height: 17px;
+    width: 17px;
+
+    background-image: url("./Home images/cash-on-delivery.png");
+    background-size: cover;
+
+}
+
+.iconSquareVerify {
+    height: 17px;
+    width: 17px;
+
+    background-image: url("./Home images/verify.png");
+    background-size: cover;
+
+}
+
+.iconSquareReturn {
+    height: 17px;
+    width: 17px;
+
+    background-image: url("./Home images/product-return.png");
+    background-size: cover;
+
+}
+
+.iconSquareShield {
+    height: 17px;
+    width: 17px;
+
+    background-image: url("./Home images/shield.png");
+    background-size: cover;
+
+}
+
+.iconSquarePlus {
+    height: 17px;
+    width: 17px;
+
+    background-image: url("./Home images/plus.png");
+    background-size: cover;
+
+}
+
+
+.watchListItemBG {
+    background-color: whitesmoke;
+
+    height: 140px;
+    width: 100%;
+}
+
+.checkoutA {
+    text-decoration: none;
+
+    color: black;
+
+    font-size: 15px;
+
+    opacity: 80%;
+
+    cursor: pointer;
+}
+
+.checkoutTextA {
+    font-size: 15px;
+
+}
+
+.cartItemImg {
+    height: 63px;
+    width: 87px;
+
+    border-style: groove;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+
+}
+
+.img {
+    height: 50px;
+}
+
+.smallCheckoutText {
+    font-size: 11px;
+    opacity: 75%;
+}
+
+.smallCheckoutText2 {
+    font-size: 11px;
+
+}
+
+.checkoutEndSize {
+    height: 100px;
+
+    background-color: whitesmoke;
+}
+
+.singlesImgContainer {
+
+
+    height: 320px;
+    width: 330px;
+
+    flex: 0 0 330px;
+
+    background-color: white;
+}
+
+.singlesImgContainer2 {
+
+
+    height: 320px;
+    width: 500px;
+
+    flex: 0 0 500px;
+
+    background-color: white;
+}
+
+.singlesDetailsContainer {
+    height: 425px;
+    width: 550px;
+
+    flex: 0 0 550px;
+
+}
+
+.singlesDetailsContainer2 {
+    height: 500px;
+    width: 730px;
+
+    display: none;
+
+    margin-top: 5px;
+
+    flex: 0 0 730px;
+
+    overflow: hidden;
+}
+
+.singlesPriceContainer {
+    height: 380px;
+    width: 400px;
+
+    flex: 0 0 400px;
+
+    background-color: RGB(248, 249, 250)
+}
+
+.singlesPriceContainer2 {
+    height: 380px;
+    width: 500px;
+
+
+
+    background-color: RGB(248, 249, 250)
+}
+
+.imgPrice {
+    width: 500px;
+    height: 750px;
+
+    display: none;
+}
+
+.itemImg {
+    width: 300px;
+}
+
+.itemImgBG {
+    width: 300px;
+    height: 190px;
+
+    margin-top: 30px;
+}
+
+.starIcon {
+    height: 17px;
+    width: 17px;
+
+    background-image: url("./Home\ images/star.png");
+    background-size: cover;
+}
+
+.halfStarIcon {
+    height: 17px;
+    width: 17px;
+
+    background-image: url("./Home images/starhalf.png");
+    background-size: cover;
+}
+
+.whiteStarIcon {
+    height: 17px;
+    width: 17px;
+
+    background-image: url("./Home images/starWhite.png");
+    background-size: cover;
+}
+
+.starIconsContainer {
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.smallDetailsText {
+    font-size: 13px;
+
+    text-decoration: none;
+}
+
+.priceText {
+    color: rgb(252, 164, 0);
+
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.striked {
+    font-weight: bold;
+    font-size: 13px;
+    opacity: 75%;
+    margin-top: -20px;
+}
+
+.locationChangeText {
+    text-decoration: none;
+}
+
+.deliveryDays {
+    margin-top: -15px;
+    font-size: 12px;
+    opacity: 80%;
+
+}
+
+.marginReduce {
+    margin-top: -10px;
+}
+
+.marginReduce5 {
+    margin-top: -5px;
+}
+
+.servicesText {
+    font-size: 14.1px;
+
+    text-decoration: none;
+}
+
+.productDetails {
+    height: 700px;
+
+    background-color: whitesmoke;
+}
+
+.invoiceBG {
+    height: 1400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: RGB(248, 249, 250);
+}
+
+.invoiceBody {
+    height: 1100px;
+    width: 800px;
+
+    background-color: white;
+
+}
+
+.invoiceLogo {
+    height: 80px;
+}
+
+.invoiceHeading {
+    font-size: 15px;
+    font-weight: bold;
+
+    opacity: 50%;
+}
+
+.footerMain2 {
+    font-size: 15px;
+
+}
+
+.marginReduce50 {
+    margin-top: -50px;
+}
+
+.marginReduce100 {
+    margin-top: -100px;
+}
+
+.discountscol {
+    width: 565px;
+}
+
+.totalcol {
+    width: 515px;
+}
+
+.recieptMargin {
+    margin-top: -40px;
+}
+
+.adminBody {
+background-color: whitesmoke;
+
+height: 380px;
+width: 800px;
+
+}
+
+body {
+    background-color: whiesmoke;
+}
+
+.adminContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.adminHeadings {
+    font-size: 14px;
+
+    color: gray;
+
+    text-decoration: none;
+}
+
+.smallTextAdmin {
+    font-size: 14px;
+    text-decoration: none;
+
+    color: grey;
+}
+
+.addItemBody {
+    width: 800px;
+
+    height: 550px   ;
+
+    background-color: rgb(253, 251, 251);;
+}
+
+.addItemOffers {
+    width: 800px;
+
+    height: 430px   ;
+
+    background-color: rgb(253, 251, 251);;
+}
+
+.addItemGallery {
+    width: 800px;
+
+    height: 550px   ;
+
+    background-color: rgb(253, 251, 251);;
+}
+
+.addItemDesbody {
+    width: 800px;
+
+    height: 590px   ;
+
+    background-color: rgb(253, 251, 251);;
+}
+
+.addItemPriceBody {
+    width: 800px;
+
+    height: 590px   ;
+
+    background-color: rgb(253, 251, 251);;
+}
+
+
+.addItemsHeadings {
+    font-size: 15px;
+
+    opacity: 80%;
+    color: black;
+
+    text-decoration: none;
+}
+
+.headingAdd {
+    font-size: 24px;
+}
+
+.smallTextArea {
+    font-size: 14px;
+
+    padding-left: 10px;
+    
+}
+
+.smallTextArea2 {
+    font-size: 13px;
+
+    padding-left: 10px;
+    
+}
+
+.addedVarientBody {
+    height: 80px;
+
+    background-color: whitesmoke;
+}
+
+.divGallery {
+    height: 135px;
+    width: 620px;
+
+    background-color:white
+}
+
+.divBox {
+    height: 100px;
+    width: 100px;
+    
+    border-color: black;
+    border-style: groove;
+
+    background-color: whitesmoke;
+}
+.divBox1 {
+    height: 100px;
+    width: 100px;
+
+
+    background-image: url("./Home images/tuf2.png");
+    background-size: cover;
+}
+
+.circle {
+    height: 80px;
+    width: 80px;
+
+    background-image: url("./Home images/siloughette.png");
+    background-size: cover;
+
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width : 1155px) {
+    .topDetails {
+        display: none;
+    }
+}
+
+@media (max-width : 845px) {
+    .menuArrow {
+        display: block;
+    }
+
+    .removeBtns {
+        display: none;
+    }
+}
+
+@media (max-width : 645px) {
+    .footerContainer {
+        height: 450px;
+    }
+}
+
+
+@media (max-width : 992px) {
+    .u1 {
+        display: none;
+    }
+
+    .u2 {
+        display: block;
+    }
+
+    .footerContainer {
+        height: 400px;
+    }
+}
+
+@media (max-width : 576px) {
+    .footerContainer {
+        height: 550px;
+    }
+
+    .u1 {
+        display: block;
+    }
+
+    .u2 {
+        display: none;
+    }
+}
+
+@media (max-width : 1689px) {
+    .filterMenuButton {
+        display: block;
+    }
+
+    .filterText {
+        display: none;
+    }
+
+    .filters {
+        display: none;
+    }
+
+    .products1 {
+        width: 1500px;
+    }
+
+    .setoff {
+        margin-left: 0px;
+    }
+
+    .setoff2 {
+        margin-left: 90px;
+    }
+
+    .setoff3 {
+        margin-left: 0px;
+    }
+
+    .rem {
+        width: 17rem;
+    }
+
+    .products1 {
+        height: 500px;
+    }
+}
+
+@media (max-width : 1490px) {
+    .products1 {
+        height: 820px;
+    }
+}
+
+@media (max-width : 1400px) {
+    .setoff2 {
+        margin-left: 50px;
+    }
+
+    .products1 {
+        height: 500px;
+    }
+}
+
+@media (max-width :1298px) {
+    .leftMargin1 {
+        margin-left: 100px;
+    }
+
+    .leftMargin4 {
+        margin-left: 100px;
+    }
+
+    .products1 {
+        height: 820px;
+    }
+}
+
+@media (max-width : 1028px) {
+    .leftMargin3 {
+        margin-left: 100px;
+    }
+
+    .leftMargin4 {
+        margin-left: 0px;
+    }
+
+    .rem {
+        width: 20rem;
+    }
+
+    .products1 {
+        height: 870px;
+    }
+}
+
+@media (max-width : 804px) {
+    .leftMargin2 {
+        margin-left: 100px;
+    }
+
+    .leftMargin4 {
+        margin-left: 100px;
+    }
+
+    .products1 {
+        height: 1680px;
+    }
+}
+
+@media (max-width : 1568px) {
+    .cartsetoff {
+        margin-left: 80px;
+    }
+}
+
+@media (max-width : 1393px) {
+    .cartsetoff {
+        margin-left: 0px;
+    }
+
+
+    .itemList {
+        width: 100rem;
+
+        height: 240px;
+    }
+
+    .checkout {
+        width: 100rem;
+    }
+}
+
+@media (max-width : 696px) {
+    .checkoutEndSize {
+        height: 130px;
+    }
+}
+
+@media (max-width :1200px) {
+    .singlesDetailsContainer {
+        display: none;
+    }
+
+    .singlesDetailsContainer2 {
+        display: flex;
+    }
+}
+
+@media (max-width :756px) {
+
+    .imgPrice {
+        display: flex;
+    }
+
+    .singlesImgContainer {
+        display: none;
+    }
+
+    .singlesPriceContainer {
+        display: none;
+    }
+
+    .singlesDetailsContainer2 {
+        width: 500px;
+
+        flex: 0 0 480px;
+    }
+}
+
+
+@media (max-width : 1071px) {
+    .productDetails {
+        height: 750px;
+    }
+}
+
+@media (max-width : 785px) {
+    .productDetails {
+        height: 1000px;
+    }
+}
+
+@media (max-width : 843px) {
+    .invoiceBody {
+        width: 600px;
+    }
+
+    .discountscol {
+        width: 412px;
+    }
+
+    .totalcol {
+        width: 362px;
+    }
+
+    .recieptMargin {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width : 716px){
+    .addItemDesbody {
+        height: 700px;
+    }
+
+    .addedVarientBody {
+        height: 110px;
+    }
+}
+
+@media (max-width :720px){
+    .addItemPriceBody {
+        height: 620px;
+    }
+}
+
+@media (max-width : 584px){
+    .addItemBody {
+        height: 600px;
+    }
+}
