@@ -285,7 +285,24 @@ body {
     text-align: center;
 }
 
+.detailsParagraphLeftAlign {
+    font-size: 18px;
+    font-weight: lighter;
 
+    opacity: 2;
+    color: white;
+
+
+    text-align: left;
+}
+
+.buttonGoUp {
+    transition: transform .3s;
+}
+
+.buttonGoUp:hover{
+    transform: scale(1.2);
+}
 
 
 
