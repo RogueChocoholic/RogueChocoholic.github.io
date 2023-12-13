@@ -26,7 +26,9 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #ffffff;
+    background: #ae59f0;
+background: -webkit-linear-gradient(43deg, #ae59f0 0%, #e116d0 50%, #720457 100%);
+background: linear-gradient(43deg, #ae59f0 0%, #e116d0 50%, #720457 100%);
     /* You can customize the background color */
     display: flex;
     align-items: center;
@@ -37,7 +39,7 @@ body {
  .spinner {
     width: 64.8px;
     height: 57.6px;
-    --c: linear-gradient(#270e44 calc(50% - 14.4px), #0000 0 calc(50% + 14.4px), #ff00c8 0);
+    --c: linear-gradient(#ce64ff calc(50% - 14.4px), #6d1c1c00 0 calc(50% + 14.4px), #ff79f4 0);
     background: var(--c) 0% 100%,
        var(--c) 50% 100%,
        var(--c) 100% 100%;
