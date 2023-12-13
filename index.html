@@ -13,6 +13,12 @@
 </head>
 
 <body>
+
+    <!-- Loading screen -->
+<div class="loading-screen">
+    <div class="spinner"></div>
+</div>
+
     <div class="mouseThingySize">
         <div class="sun"></div>
     </div>
@@ -452,6 +458,11 @@
     </div>
     <script src="./js/script.js"></script>
     <script src="./js/mousething.js"></script>
+    <script>
+        setTimeout(function() {
+            document.querySelector('.loading-screen').style.display = 'none';
+        }, 2000);
+    </script>
 </body>
 
 </html>
