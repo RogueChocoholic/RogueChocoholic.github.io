@@ -4,6 +4,7 @@ $(document).ready(function () {
   $("#page2Begin").hide();
   $("#downButton1").hide();
   $("#page3Begin").hide();
+  $("#page4Begin").hide();
 
   $(document).mousemove(function () {
     $("#myName").animate(
@@ -52,6 +53,12 @@ $(document).ready(function () {
       $("#page3Begin").fadeIn();
     });
 
+    $("#goToPageThree").click(function() {
+      $("#page2Begin").fadeIn();
+      $("#page3Begin").fadeIn();
+      $("#page4Begin").fadeIn();
+    });
+
 
 
 
@@ -59,9 +66,14 @@ $(document).ready(function () {
       $("#page2Begin").fadeIn(500);
     });
 
-    $("#downButton1").click(function() {
+    $("#downButton2").click(function() {
       $("#page3Begin").fadeIn(500);
     });
+
+    $("#downButton3").click(function() {
+      $("#page4Begin").fadeIn(500);
+    });
+
 
 
 
