@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Lovers' Quarrel 2024</title>
+    <link rel="shortcut icon" type="image/png" href="/images-event/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="official site for the lovers quarrel 2024. lq.lk #notforordianry">
+    <meta name="keywords" content="lovers quarrel, mahinda college, galle, season of the golds, thenusandul, richmond vs mahinda">
+    <meta name="author" content="thenusand">
+
+
+    <!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<![endif]-->
+
+
+    <!-- CSS Files
+    ================================================== -->
+
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/jpreloader.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
+    <link rel="stylesheet" href="css/plugin.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.theme.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.transitions.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery.countdown.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/twentytwenty.css" type="text/css">
+
+    <!-- custom background -->
+    <link rel="stylesheet" href="css/bg.css" type="text/css">
+
+    <!-- color scheme -->
+    <link rel="stylesheet" href="css/colors/magenta.css" type="text/css" id="colors">
+    <link rel="stylesheet" href="css/color.css" type="text/css">
+
+    <!-- load fonts -->
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.css" type="text/css">
+    <link rel="stylesheet" href="fonts/elegant_font/HTML_CSS/style.css" type="text/css">
+    <link rel="stylesheet" href="fonts/et-line-font/style.css" type="text/css">
+
+    <!-- RS5.0 Stylesheet -->
+    <link rel="stylesheet" href="revolution/css/settings.css" type="text/css">
+    <link rel="stylesheet" href="revolution/css/layers.css" type="text/css">
+    <link rel="stylesheet" href="revolution/css/navigation.css" type="text/css">
+    <link rel="stylesheet" href="css/rev-settings.css" type="text/css">
+
+    <!-- custom font -->
+    <link rel="stylesheet" href="css/font-style.css" type="text/css">
+
+
+
+    <!-- development version, includes helpful console warnings -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-firestore.js"></script>
+
+
+</head>
+
+<body id="homepage">
+
+    <div id="wrapper">
+
+
+
+        <!-- content begin -->
+        <div id="content" class="no-bottom no-top">
+
+            <section class="cool_facts_area clearfix">
+
+                <div class="wm wm-border dark wow fadeInDown ">Score Card</div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 offset-md-3 text-center wow fadeInUp">
+                            <h1>Score Card</h1>
+                            <div class="separator"><span><i class="fa fa-square"></i></span></div>
+                            <div class="spacer-single"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <!-- Single Cool Fact-->
+                        <div class="col-12 col-md-3 col-lg-3">
+                            <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.2s">
+                                <img src="images-event\logo\mcg.png" width="50%" height="50%">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6 col-xs-12 text-center col-lg-6" data-wow-delay="0.6s">
+                            <div class="service-item" id="mainScore">
+                                <a id="Batting" class="page-scroll" style="color: gold;">{{ msg }}</a>
+                                <h1 class="mainScore"><span id="score">{{ score }}</span>/<span id="wickets">{{ wickets }}</span></h1>
+                                <h2><span class="mainOvers" id="Overs">{{ overs }}<span id="overs"></span> OVERS</h2>
+                                <p id="MatchStatus"></p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3 col-lg-3">
+                            <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.8s">
+                                <img src="images-event\logo\rcg.png" width="50%" height="50%">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="scorecard" class="container" data-speed="10" data-type="background" style="padding-top: 70px; padding-bottom: 120px; background-position: 50% -429.8px;">
+                        <div class="row">
+                            <div class="align-self-center col-md-8 offset-md-2 section-heading2 animated fadeInUp visible" style="text-align:center" data-animation="fadeInUp" data-animation-delay="0">
+                                <h2 class="lq-head">Lovers Quarrel 2024</h2>
+                                <h1>Full Scorecard</h1>
+                                <p class="line">&nbsp;</p>
+                                <div class="quotes-p fullscore">
+                                    <div class="items" v-for="(inning, index) in innings">
+                                        <div class="name">{{ inning.displayName }}</div>
+                                        <div class="text table-responsive">
+                                            <batting-card v-bind:inning="inning" v-bind:batting="battingCard" v-bind:innings="inningCard"></batting-card>
+                                            <bowling-card v-bind:inning="inning" v-bind:bowling="bowlingCard"></bowling-card>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Section: Live preview-->
+                </div>
+        </div>
+        </section>
+
+
+
+    </div>
+    </div>
+
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jpreLoader.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/easing.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/jquery.scrollto.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/video.resize.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/enquire.min.js"></script>
+    <script src="js/designesia.js"></script>
+    <script src="js/jquery.event.move.js"></script>
+    <script src="js/jquery.plugin.js"></script>
+    <script src="js/jquery.countdown.js"></script>
+    <script src="js/countdown-custom.js"></script>
+    <script src="js/jquery.twentytwenty.js"></script>
+
+    <!-- RS5.0 Core JS Files -->
+    <script src="revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
+    <script src="revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
+
+    <!-- RS5.0 Extensions Files -->
+    <script src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+
+    <script>
+        jQuery(document).ready(function() {
+            // revolution slider
+            jQuery("#slider-revolution").revolution({
+                sliderType: "standard",
+                sliderLayout: "fullwidth",
+                delay: 5000,
+                navigation: {
+                    arrows: {
+                        enable: true
+                    },
+                    bullets: {
+                        enable: false,
+                        style: 'hermes'
+                    },
+
+                },
+                parallax: {
+                    type: "mouse",
+                    origo: "slidercenter",
+                    speed: 2000,
+                    levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50],
+                },
+                spinner: "off",
+                gridwidth: 1140,
+                gridheight: 700,
+                disableProgressBar: "on"
+            });
+        });
+    </script>
+
+    <script>
+        $(window).on("load", function() {
+            $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({
+                default_offset_pct: 0.7
+            });
+            $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({
+                default_offset_pct: 0.3,
+                orientation: 'vertical'
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
