@@ -8675,7 +8675,7 @@ table.score-table {
 
 .goToApp{
     position: absolute;
-    background-image: url("/images-event/misc/getItOnGooglePlay.png");
+    background-image: url("../images-event/misc/getItOnGooglePlay.png");
     background-size: cover;
     height: 60px;
     width: 180px;
@@ -8698,7 +8698,7 @@ table.score-table {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8); /* Adjust the last value (0.5) for opacity */
     z-index: 1; /* Ensure the overlay is on top of the content */
-    padding-bottom: ;
+    /* padding-bottom: ; */
 }
 
 .showOnHover {
